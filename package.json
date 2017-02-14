@@ -1,0 +1,16 @@
+{
+  "name": "meetup-calendar-api",
+  "version": "0.0.1",
+  "main": "server.js",
+  "repository": "https://github.com/ManRueda/meetup-calendar-api.git",
+  "author": "Manuel Rueda <manuel.rueda.un@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard",
+    "prepush": "npm run lint"
+  },
+  "devDependencies": {
+    "husky": "^0.13.1",
+    "standard": "^8.6.0"
+  }
+}
